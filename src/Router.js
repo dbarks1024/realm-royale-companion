@@ -3,16 +3,16 @@ import {
   Scene,
   Router
 } from 'react-native-router-flux';
-import Test from './components/Test';
+import Leaderboards from './components/Leaderboards';
 
 const RouterComponent = () => {
   return (
     <Router>
       <Scene key='root' >
         <Scene
-        key='test' 
-        component={Test} 
-        title='Test'  
+        key='leaderboards' 
+        component={Leaderboards} 
+        title='Leaderboards'  
         />
       </Scene>
     </Router>

@@ -1,8 +1,7 @@
 import { combineReducers } from 'redux';
-import Reducer from './Reducer';
-
+import Leaderboard from './LeaderboardReducer';
 
 export default combineReducers({
-    reducer: Reducer
+    leaderboard: Leaderboard
 });
  
